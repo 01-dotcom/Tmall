@@ -17,6 +17,6 @@ public class TulingImportBeanfinitionRegister implements ImportBeanDefinitionReg
 		RootBeanDefinition rootBeanDefinition = new RootBeanDefinition(CompentB.class);
 		registry.registerBeanDefinition("compentB",rootBeanDefinition);
 		System.out.println("TulingImportBeanfinitionRegister execute  after")
-
+		System.out.println("TulingImportBeanfinitionRegister  register compentB")
 	}
 }
