@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 public class TulingImportBeanfinitionRegister implements ImportBeanDefinitionRegistrar {
 	@Override
 	public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
+		System.out.println("Œ“ «TulingImportBeanfinitionRegister")
 		RootBeanDefinition rootBeanDefinition = new RootBeanDefinition(CompentB.class);
 		registry.registerBeanDefinition("compentB",rootBeanDefinition);
 	}
